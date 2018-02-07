@@ -1,0 +1,1 @@
+fig.canvas.manager.window.attributes('-topmost', 1) #stay on top of all windows
