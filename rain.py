@@ -10,6 +10,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
 
+#import Embed_PyGame as EP
+
 
 # Create new Figure and an Axes which fills it. 
 fig = plt.figure(figsize=(7,7))
@@ -64,4 +66,5 @@ def update(frame_number):
 # director.
 animation = FuncAnimation(fig, update, interval=10)
 animation.save('rain.mp4', fps=15)
+#EP.Embed()
 plt.show()

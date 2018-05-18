@@ -4,7 +4,7 @@
 #%%
 from numpy import sin, cos, pi, array
 import numpy as np
-# import Fig_Show
+import Fig_Show
 import matplotlib.pyplot as plt
 import scipy.integrate as integrate
 import matplotlib.animation as animation
