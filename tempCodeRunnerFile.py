@@ -1,1 +1,2 @@
-fig.canvas.manager.window.attributes('-topmost', 1) #stay on top of all windows
+#Install FFMPEG using: brew install ffmpeg
+ani.save('sinewave.mp4', fps=15)
