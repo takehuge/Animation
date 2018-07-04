@@ -87,6 +87,6 @@ ani = animation.FuncAnimation(fig, animate, np.arange(1, len(y)),
     interval=25, blit=False, init_func=init)
 
 #Install FFMPEG using: brew install ffmpeg
-ani.save('double_pendulum.mp4', fps=15)
+# ani.save('double_pendulum.mp4', fps=15)
 
 plt.show()
