@@ -3,7 +3,7 @@ A simple example of an animated plot
 """
 import numpy as np
 import matplotlib
-matplotlib.use('tkAgg')
+matplotlib.use('tkAgg') # bring upfront
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 
