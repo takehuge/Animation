@@ -8,7 +8,7 @@ from itertools import product, combinations
 
 fig = plt.figure()
 ax = fig.gca(projection='3d')
-ax.set_aspect("equal")
+# ax.set_aspect("equal")
 
 # draw cube
 r = [-1, 1]
